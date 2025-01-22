@@ -24,7 +24,7 @@ const App = () => (
           <Routes>
             <Route path="/auth" element={<Auth />} />
             <Route element={<Layout />}>
-              <Route path="/" element={<HomePage />} />
+              <Route path="/job-board" element={<HomePage />} />
               <Route path="/jobs" element={<JobListings />} />
               <Route path="/jobs/:id" element={<JobDetail />} />
               <Route path="/post-job" element={<PostJob />} />
